@@ -1,0 +1,125 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: #1D3557; */
+    color: #84A59D;
+    text-shadow: 
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("images/cape-may-view.webp");
+    background-size: cover;
+    width: 720px;
+    height: 340px;
+    margin: -20px 0 0 0 ;
+    padding: 0;
+    color: white;
+}
+
+#title {
+    /* background-color: #1D3557; */
+    background-color: #F28482;
+    margin: 105px auto 0;
+    width: 230px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+#subtitle {
+    /* background-color: #457B9D; */
+    background-color: #84A59D;
+    width: 355px;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+#activities{
+    width: 720px;
+    height: 340px;
+    /* background-color: #F1FAEE */
+    background-color: #F7EDE2;
+}
+
+.activity-img {
+    border-radius: 50%;
+}
+
+#images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 0 0 0;
+}
+
+.info {
+    width: 200px;
+}
+
+.info h4 {
+    margin-bottom: 10px
+}
+
+.info p {
+    margin: 0;
+}
+
+#guide {
+    width: 400px;
+    height: 290px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #A8DADC; */
+    background-color: #F5CAC3;
+    margin: 50px 0;
+    border-radius: 10px;
+    box-shadow: 0px 5px #F6BD60;
+}
+
+#card {
+    width: 180px;
+    height: 250px;
+    
+}
+
+#profile-img {
+    width: 180px;
+    border: none;
+    border-radius: 10px;
+}
+
+#card p {
+    font-style: italic;
+}
+
+#hero:hover, #activities:hover, #guide:hover, #profile-img:hover, #title:hover, #subtitle:hover {
+    border: 5px solid gold;
+    border-radius: 5px;
+}
+
+.activity-img:hover {
+    border: 5px solid gold;
+    border-radius: 50%;
+}
