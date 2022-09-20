@@ -1,4 +1,4 @@
-#My hometown page, which really is a vacation spot I like
+# My hometown page, which really is a vacation spot I like
 You can check it out here: https://wmurphy-collabstar.github.io/hometown-homepage/
 
 ## About Scrimba
